@@ -1,7 +1,7 @@
 /*write a c program to perform all arithmetic operators*/
 #include<stdio.h>
 int main()
-{int a,b,c,d,e,g;
+{int a,b,c,d,e,f,g;
 float f;
 printf("Enter two values");
 scanf("%d%d",&a,&b);
