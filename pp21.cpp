@@ -1,0 +1,22 @@
+/*Printing patterns 2*/
+#include<stdio.h>
+int main()
+{
+	int i,j,n,s;
+	printf("Enter no of rows and starting value");
+	scanf("%d %d",&n,&s);
+
+	for (i=0;i<n;i++)
+	{for (j=0;j<i+1;j++)
+	printf("%d ",s);
+	s++;
+	printf("\n");}
+	s--;
+	for (i=0;i<n;i++)
+	{for (j=0;j<n-i;j++)
+	printf("%d ",s);
+	s--;
+	
+	printf("\n");}
+return 0;	
+}
