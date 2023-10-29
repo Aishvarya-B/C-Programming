@@ -1,6 +1,5 @@
 /*sum of first and last digit*/
 #include<stdio.h>
-#include<math.h>
 int main()
 {
 	int i,s=0,n=0;
